@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta property="og:title" content="YouTube Clone | AsliddinWeb">
+    <meta property="og:image" content="./images/samarqand 2019.jpg">
+    <meta property="og:description" content="Youtube Clone Width Bootstrap 5 | AsliddinWeb">
+    <meta property="og:site_name" content="AsliddinWeb.Uz">
+    <meta name="description" content="Youtube Clone Width Bootstrap 5 | AsliddinWeb">
+    <meta name="keywords" content="HTML, CSS, Bootstrap, JavaScript, YoutubeClone, AsliddinWeb, Asliddin">
+    <meta name="author" content="Asliddin Abdujabborov | AsliddinWeb">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AsliddinWeb.Uz | Youtube Clone</title>
+
+    <!-- Main Css -->
+    <link rel="stylesheet" href="./css/main.css">
+
+    <!-- Favicon io -->
+    <link rel="shortcut icon" href="./images/aa.png" type="image/png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+
+        <!-- Fontawesome CSS -->
+        <link rel="stylesheet" href="./css/fontawesome.css">
+</head>
+<body>
+    <header class="z">
+        <div class="container-fluid">
+            <!-- HEADER -->
+            <div class="row height align-items-center">
+                <div class="col-12">
+                    
+                        <div class="row">
+    
+                            <!-- BRAND -->
+                            <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 d-flex align-items-center z">
+                                <div class="menu-icon">
+                                    <img src="./images/menu-regular-24.png" alt="Burger" id="showHide">
+                                </div>
+                                <div class="logo">
+                                    <a href="#">
+                                    <h4>Asliddin<span>Web</span></h4>
+                                </a>
+                                </div>
+                            </div>
+    
+                            <!-- SEARCH INPUT -->
+                            <div class="col-1 col-sm-1 col-md-5 col-lg-6 col-xl-7 d-flex align-items-center justify-content-center ss-input blur">
+                                <div class="search">
+                                    <form class="d-flex">
+                                        <input class="search-uz" type="search" placeholder="Qidiruv..." aria-label="Search">
+                                        <button class="btn-uz" type="submit">
+                                            <img src="./images/search-regular-24.png" alt="Search" class="oo">
+                                        </button>
+                                      </form>
+                                </div>
+                                <div class="voice">
+                                    <img src="./images/voice-search.png" alt="Voice search" class="ooo">
+                                </div>
+                            </div>
+    
+                            <!-- RIGHT MENU -->
+                            <div class="col-5 col-sm-5 col-md-4 col-lg-3 col-xl-2 d-flex align-items-center jce blur">
+                                <div class="right-menu x">
+                                    <img src="./images/search-regular-24.png" alt="Upload" class="oo">
+                                 </div>
+                                 <div class="right-menu x">
+                                    <img src="./images/voice-search.png" alt="Upload" class="ooo">
+                                 </div>
+
+                                <div class="right-menu">
+                                    <img src="./images/video-plus-regular-24.png" alt="Upload" class="o">
+                                 </div>
+                                <div class="right-menu">
+                                    <img src="./images/grid-solid-24.png" alt="More"  class="o">
+                                </div>
+                                <div class="right-menu">
+                                    <img src="./images/bell-regular-24.png" alt="Notification"  class="o">
+                                </div>
+                                <div class="right-menu">
+                                    <img src="./images/samarqand 2019.jpg" alt="Icon"  class="i">
+                                </div>
+                            </div>
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="bg-white burgercha">
+        <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 d-flex align-items-center">
+            <div class="menu-icon">
+                <img src="./images/menu-regular-24.png" alt="Burger" id="hide">
+            </div>
+            <div class="logo">
+                <a href="#">
+                <h4>Asliddin<span>Web</span></h4>
+            </a>
+            </div>
+        </div>
+        <ul class="list-group mt-4">
+            
+            <a href="#">
+                <li class="bu active" aria-current="true">
+                    <img src="./images/home.png" alt="Home" class="o">
+                    <span>Home</span>
+                </li>
+            </a>
+            <a href="#">
+                <li class="bu">
+                    <img src="./images/library.png" alt="Library" class="o">
+                    <span>Library</span>
+                </li>
+            </a>
+            <a href="#">
+                <li class="bu">
+                    <img src="./images/history.png" alt="History" class="o">
+                    <span>History</span>
+                </li>
+            </a>
+            <a href="#">
+                <li class="bu">
+                    <img src="./images/explore.png" alt="Trend" class="o">
+                    <span>Trend</span>
+                </li>
+            </a>
+            <a href="#">
+                <li class="bu">
+                    <img src="./images/cast.png" alt="Cast" class="o">
+                    <span>News</span>
+                </li>
+            </a>
+            <a href="#">
+                <li class="bu">
+                    <img src="./images/playlist.png" alt="Playlist" class="o">
+                    <span>Playlists</span>
+                </li>
+            </a>
+            <a href="#">
+                <li class="bu">
+                    <img src="./images/like.png" alt="Playlist" class="o">
+                    <span>AsliddinWeb</span>
+                </li>
+            </a>
+            <a href="#">
+                <li class="bu">
+                    <img src="./images/messages.png" alt="Playlist" class="o">
+                    <span>Messages</span>
+                </li>
+            </a>
+        </ul>
+    </div>
+
+
+    <!-- MENU -->
+    <section class="menu blur">
+        <div class="container-fluid">
+            <div class="row">
+
+                
+                <!-- NAVIGATION MENU -->
+                <div class="col-xs-0 col-sm-0 col-md-1 col-xxl-2 bg-white navigation">
+                    <ul class="list-group mt-4">
+                        
+                        <a href="#">
+                            <li class="list-group-item active" aria-current="true">
+                                <img src="./images/home.png" alt="Home" class="o">
+                                <span>Home</span>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li class="list-group-item">
+                                <img src="./images/library.png" alt="Library" class="o">
+                                <span>Library</span>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li class="list-group-item">
+                                <img src="./images/history.png" alt="History" class="o">
+                                <span>History</span>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li class="list-group-item">
+                                <img src="./images/explore.png" alt="Trend" class="o">
+                                <span>Trend</span>
+                            </li>
+                        </a>
+                        <a href="#" class="del">
+                            <li class="list-group-item">
+                                <img src="./images/cast.png" alt="Cast" class="o">
+                                <span>News</span>
+                            </li>
+                        </a>
+                        <a href="#" class="del">
+                            <li class="list-group-item">
+                                <img src="./images/playlist.png" alt="Playlist" class="o">
+                                <span>Playlists</span>
+                            </li>
+                        </a>
+                        <a href="#" class="del">
+                            <li class="list-group-item">
+                                <img src="./images/like.png" alt="Playlist" class="o">
+                                <span>AsliddinWeb</span>
+                            </li>
+                        </a>
+                        <a href="#" class="del">
+                            <li class="list-group-item">
+                                <img src="./images/messages.png" alt="Playlist" class="o">
+                                <span>Messages</span>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+
+                
+
+                <!-- ASOSIY MENYU -->
+                <div class="col-xs-12 col-sm-12 col-md-11 col-xxl-10 bg-white glavni">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12 panel">
+                                <button type="button" class="btn btn-dark active">Hammasi</button>
+                                <button type="button" class="btn btn-outline-dark">Musiqa</button>
+                                <button type="button" class="btn btn-outline-dark">Mikslar</button>
+                                <button type="button" class="btn btn-outline-dark">Jonli</button>
+                                <button type="button" class="btn btn-outline-dark">Matematika</button>
+                                <button type="button" class="btn btn-outline-dark">Animatsiya</button>
+                                <button type="button" class="btn btn-outline-dark">Tabiat</button>
+                                <button type="button" class="btn btn-outline-dark">Rep aytish</button>
+                                <button type="button" class="btn btn-outline-dark">Jangovar va sarguzasht o'yinl...</button>
+                            </div>
+                        </div>
+
+
+                        <!-- VIDEOS MENU -->
+                        <div class="row video-menu">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-3">
+                                <div class="video-card">
+                                    <div class="img-div">
+                                        <img src="./images/thumbnail1.png" alt="Thumbnail" class="th img-fluid">
+                                    </div>
+                                    <div class="title d-flex align-items-center">
+                                        <div class="title-icon">
+                                            <img src="https://yt3.ggpht.com/ytc/AKedOLTpTPlRxrDfszPRShO1Emc4dTiWvBeWf91WZKVe=s68-c-k-c0x00ffffff-no-rj" alt="Title icon" class="ii">
+                                        </div>
+                                        <div class="title-text">
+                                            <a href="#">
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing...
+                                            </a>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="avtor">
+                                        <a href="#">Osmondagi bolalar</a>
+                                        <a href="#">30ming marta 2kun oldim</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-3">
+                                <div class="video-card">
+                                    <div class="img-div">
+                                        <img src="./images/thumbnail2.png" alt="Thumbnail" class="th img-fluid">
+                                    </div>
+                                    <div class="title d-flex align-items-center">
+                                        <div class="title-icon">
+                                            <img src="./images/cameron.png" alt="Title icon" class="ii">
+                                        </div>
+                                        <div class="title-text">
+                                            <a href="#">
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing...
+                                            </a>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="avtor">
+                                        <a href="#">Osmondagi bolalar</a>
+                                        <a href="#">30ming marta 2kun oldim</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-3">
+                                <div class="video-card">
+                                    <div class="img-div">
+                                        <img src="./images/thumbnail3.png" alt="Thumbnail" class="th img-fluid">
+                                    </div>
+                                    <div class="title d-flex align-items-center">
+                                        <div class="title-icon">
+                                            <img src="./images/gerard.png" alt="Title icon" class="ii">
+                                        </div>
+                                        <div class="title-text">
+                                            <a href="#">
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing...
+                                            </a>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="avtor">
+                                        <a href="#">Osmondagi bolalar</a>
+                                        <a href="#">30ming marta 2kun oldim</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-3">
+                                <div class="video-card">
+                                    <div class="img-div">
+                                        <img src="./images/thumbnail4.png" alt="Thumbnail" class="th img-fluid">
+                                    </div>
+                                    <div class="title d-flex align-items-center">
+                                        <div class="title-icon">
+                                            <img src="./images/megan.png" alt="Title icon" class="ii">
+                                        </div>
+                                        <div class="title-text">
+                                            <a href="#">
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing...
+                                            </a>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="avtor">
+                                        <a href="#">Osmondagi bolalar</a>
+                                        <a href="#">30ming marta 2kun oldim</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-3">
+                                <div class="video-card">
+                                    <div class="img-div">
+                                        <img src="./images/thumbnail5.png" alt="Thumbnail" class="th img-fluid">
+                                    </div>
+                                    <div class="title d-flex align-items-center">
+                                        <div class="title-icon">
+                                            <img src="./images/Jack.png" alt="Title icon" class="ii">
+                                        </div>
+                                        <div class="title-text">
+                                            <a href="#">
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing...
+                                            </a>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="avtor">
+                                        <a href="#">Osmondagi bolalar</a>
+                                        <a href="#">30ming marta 2kun oldim</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-3">
+                                <div class="video-card">
+                                    <div class="img-div">
+                                        <img src="./images/thumbnail6.png" alt="Thumbnail" class="th img-fluid">
+                                    </div>
+                                    <div class="title d-flex align-items-center">
+                                        <div class="title-icon">
+                                            <img src="./images/tom.png" alt="Title icon" class="ii">
+                                        </div>
+                                        <div class="title-text">
+                                            <a href="#">
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing...
+                                            </a>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="avtor">
+                                        <a href="#">Osmondagi bolalar</a>
+                                        <a href="#">30ming marta 2kun oldim</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-3">
+                                <div class="video-card">
+                                    <div class="img-div">
+                                        <img src="./images/thumbnail7.png" alt="Thumbnail" class="th img-fluid">
+                                    </div>
+                                    <div class="title d-flex align-items-center">
+                                        <div class="title-icon">
+                                            <img src="./images/simon.png" alt="Title icon" class="ii">
+                                        </div>
+                                        <div class="title-text">
+                                            <a href="#">
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing...
+                                            </a>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="avtor">
+                                        <a href="#">Osmondagi bolalar</a>
+                                        <a href="#">30ming marta 2kun oldim</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-3">
+                                <div class="video-card">
+                                    <div class="img-div">
+                                        <img src="./images/thumbnail8.png" alt="Thumbnail" class="th img-fluid">
+                                    </div>
+                                    <div class="title d-flex align-items-center">
+                                        <div class="title-icon">
+                                            <img src="./images/simon.png" alt="Title icon" class="ii">
+                                        </div>
+                                        <div class="title-text">
+                                            <a href="#">
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing...
+                                            </a>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="avtor">
+                                        <a href="#">Osmondagi bolalar</a>
+                                        <a href="#">30ming marta 2kun oldim</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-3">
+                                <div class="video-card">
+                                    <div class="img-div">
+                                        <img src="./images/thumbnail1.png" alt="Thumbnail" class="th img-fluid">
+                                    </div>
+                                    <div class="title d-flex align-items-center">
+                                        <div class="title-icon">
+                                            <img src="./images/simon.png" alt="Title icon" class="ii">
+                                        </div>
+                                        <div class="title-text">
+                                            <a href="#">
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing...
+                                            </a>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="avtor">
+                                        <a href="#">Osmondagi bolalar</a>
+                                        <a href="#">30ming marta 2kun oldim</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-3">
+                                <div class="video-card">
+                                    <div class="img-div">
+                                        <img src="./images/thumbnail2.png" alt="Thumbnail" class="th img-fluid">
+                                    </div>
+                                    <div class="title d-flex align-items-center">
+                                        <div class="title-icon">
+                                            <img src="./images/gerard.png" alt="Title icon" class="ii">
+                                        </div>
+                                        <div class="title-text">
+                                            <a href="#">
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing...
+                                            </a>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="avtor">
+                                        <a href="#">Osmondagi bolalar</a>
+                                        <a href="#">30ming marta 2kun oldim</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-3">
+                                <div class="video-card">
+                                    <div class="img-div">
+                                        <img src="./images/thumbnail3.png" alt="Thumbnail" class="th img-fluid">
+                                    </div>
+                                    <div class="title d-flex align-items-center">
+                                        <div class="title-icon">
+                                            <img src="./images/Jack.png" alt="Title icon" class="ii">
+                                        </div>
+                                        <div class="title-text">
+                                            <a href="#">
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing...
+                                            </a>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="avtor">
+                                        <a href="#">Osmondagi bolalar</a>
+                                        <a href="#">30ming marta 2kun oldim</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-3">
+                                <div class="video-card">
+                                    <div class="img-div">
+                                        <img src="./images/thumbnail4.png" alt="Thumbnail" class="th img-fluid">
+                                    </div>
+                                    <div class="title d-flex align-items-center">
+                                        <div class="title-icon">
+                                            <img src="./images/cameron.png" alt="Title icon" class="ii">
+                                        </div>
+                                        <div class="title-text">
+                                            <a href="#">
+                                                Lorem ipsum, dolor sit amet consectetur adipisicing...
+                                            </a>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="avtor">
+                                        <a href="#">Osmondagi bolalar</a>
+                                        <a href="#">30ming marta 2kun oldim</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-3 red"></div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-3 red"></div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-3 red"></div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+        <!-- Bootstrap JS -->
+        <script src="./js/bootstrap.bundle.js"></script>
+        <script src="./js/app.js"></script>
+</body>
+</html>
