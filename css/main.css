@@ -23,11 +23,7 @@ body {
     height: 100vh;
     transition: .3s;
 }
-.navnav {
-    position: fixed;
-    left: 0;
-    transition: .3s;
-}
+
 .bu {
     position: relative;
     display: block;
@@ -65,9 +61,7 @@ body {
     border-top-width: 1px;
   }
 
-.blurr {
-    filter: blur(5px);
-}
+
 
 
 .logo {
@@ -157,6 +151,14 @@ li:hover {
 }
 
 @media (max-width: 1399.98px) {
+    .navnav {
+        position: fixed;
+        left: 0;
+        transition: .3s;
+    }
+    .blurr {
+        filter: blur(5px);
+    }
     .list-group-item {
         display: flex;
         justify-content: center;
